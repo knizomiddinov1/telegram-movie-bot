@@ -132,6 +132,10 @@ bot.on('callback_query', async (query) => {
     bot.sendMessage(chatId, `📢 Send the message you want to broadcast to all users.`);
   }
 
+  if (data === "export_data") {
+    bot.sendDocument(chatId, MOVIES_FILE);
+  }
+
   bot.answerCallbackQuery(query.id);
 });
 
