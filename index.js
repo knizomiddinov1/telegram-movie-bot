@@ -56,7 +56,8 @@ const adminPanel = {
       [{ text: "🗑️ Delete Movie", callback_data: "delete_movie" }],
       [{ text: "📊 View Stats", callback_data: "view_stats" }],
       [{ text: "🔗 Update Channels", callback_data: "update_channels" }],
-      [{ text: "📢 Broadcast", callback_data: "broadcast" }]
+      [{ text: "📢 Broadcast", callback_data: "broadcast" }],
+      [{ text: "📩 Export Data", callback_data: "export_data" }]
     ]
   }
 };
